@@ -1,5 +1,7 @@
 <template>
-	<div class="hello">123</div>
+	<div class="hello">
+		<el-button>默认按钮</el-button>
+	</div>
 </template>
 
 <script>
