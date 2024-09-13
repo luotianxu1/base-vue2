@@ -5,7 +5,8 @@
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
-		"lint": "vue-cli-service lint",
+		"commit": "git-cz & git push",
+		"commit-all": "git add . & git-cz & git push",
 		"lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
 		"lint:prettier": "prettier --write \"src/**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
 		"lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
@@ -13,6 +14,7 @@
 	},
 	"dependencies": {
 		"core-js": "^3.8.3",
+		"element-ui": "^2.15.14",
 		"vue": "^2.6.14"
 	},
 	"devDependencies": {
@@ -31,6 +33,7 @@
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
 		"prettier": "^2.8.8",
+		"sass": "^1.78.0",
 		"stylelint": "13.13.1",
 		"stylelint-config-prettier": "9.0.3",
 		"stylelint-config-standard": "22.0.0",
